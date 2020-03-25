@@ -1,36 +1,12 @@
-
-<div class="py-5 border-top">
-  <div class="container">
-
-    <p class="h5 mb-3">{{ site.title | escape }}</p>
-
-    <div class="row">
-
-      <div class="col-sm">
-        <ul class="list-unstyled">
-          <li>
-            {%- if site.author -%}
-              {{ site.author | escape }}
-            {%- else -%}
-              {{ site.title | escape }}
-            {%- endif -%}
-          </li>
-          {%- if site.email -%}
-            <li>
-              <a href="mailto:{{ site.email }}">
-                {{ site.email }}
-              </a>
-            </li>
-          {%- endif -%}
-        </ul>
-      </div>
-
-
-      <div class="col-sm text-right">
-        <p>{{- site.description | escape -}}</p>
-      </div>
-
-    </div>
-
+<footer>
+  <div class="footer-desc">
+    A page to monitor the evolution of COVID related policies around the globe. Supported by <a href="https://www.polite.one/">polite.one</a>
   </div>
-</div>
+
+  <div class="footer-socials">
+    <a href="mailto:contact@polite.one">contact@polite.one</a>
+    <a class="icon" href="https://twitter.com/covid19policies">
+      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/194136/twitter.svg" />
+    </a>
+  </div>
+</footer>
