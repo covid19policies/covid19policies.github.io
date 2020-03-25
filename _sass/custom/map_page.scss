@@ -16,6 +16,7 @@
 body {
   background-color: #F3E8E4;
   font-family: 'bodoni-book', serif;
+  color: #302828;
 }
 
 header {
@@ -26,6 +27,7 @@ header {
   align-items: center;
   justify-content: space-between;
   width: calc(100% - 50px);
+  z-index: 2;
 }
 
 header .logo {  
@@ -52,9 +54,55 @@ header .btn-sources:hover {
   border: 1px solid #C31E39;
   color: #C31E39;
 }
+
+
+.map-container {
+  position: fixed;
+  height: calc(100vh - 150px);
+  top: 52%;
+  transform: translateY(-50%);
+  width: 100vw;
+}
+
+.map-container svg {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.headline {
+  text-align: center
+}
+
+.headline h1 {
+  font-size: 30px;
+  font-family: 'bodoni-book', serif;
+}
+
+.headline h2 {
+  font-size: 16px;
+  font-family: 'bodoni-italic', serif;
+}
+
+.headline h2 a {
+  color: #C31E39;
+}
+
+.headline h1, .headline h2 {
+  text-shadow: none;
+}
+
+.headline .bold {
+  font-family: 'bodoni-bold', serif;
+}
+
+.red {
+  color: #C31E39;
+}
+
   
 footer { 
-  position: fixed;
+  position: absolute;
   bottom: 25px;
   left: 25px;
   display: flex;
@@ -103,5 +151,4 @@ footer .icon:after {
 
 footer .footer-desc {
   font-family: 'bodoni-italic', serif;
-} 
-  
+}
