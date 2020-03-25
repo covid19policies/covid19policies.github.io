@@ -57,13 +57,16 @@ header .btn-sources:hover {
 
 
 .map-container {
-  margin-top: 40px;
+  margin-top: 20px;
+  padding: 25px;
+}
+
+#map-area {
+  font-family: sans-serif;
 }
 
 #map-area svg {
-  margin: 25px;
   border: 1px solid #C31E39;
-  width: calc(100% - 50px);
 }
 
 .headline {
@@ -96,6 +99,95 @@ header .btn-sources:hover {
 
 .red {
   color: #C31E39;
+}
+
+.controls {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 8px;
+  margin-top: 30px;
+}
+
+.controls .filters {
+  font-size: 16px;
+}
+
+.controls .filters span {
+  margin-right: 8px;
+  font-family: 'bodoni-italic', serif;
+  font-size: 18px;
+  text-decoration: underline;
+}
+
+.controls .filters button {
+  margin-right: 8px;
+  padding: 5px 10px;
+  transition: all 200ms linear;
+}
+
+.controls .filters .disable {
+  background: #C4C4C4;
+  cursor: not-allowed;
+}
+
+.controls .filters .no-active {
+  background: #C31E39;
+  border: 1px solid #C31E39;
+  color: #F3E8E4;
+}
+
+.controls .filters .no-active:hover {
+  background: #F3E8E4;
+  border: 1px solid #C31E39;
+  color: #C31E39;
+}
+
+.controls .filters .active {
+  background: #F3E8E4;
+  border: 1px solid #C31E39;
+  color: #C31E39;
+}
+
+
+.legends {
+  display: flex;
+  align-items: center;
+}
+
+.legends span {
+  font-family: 'bodoni-book', serif;
+  font-size: 18px;
+}
+
+.legend-tip {
+  display: flex;
+  align-items: center;
+  margin-left: 16px;
+}
+
+.legend-tip span {
+  display: block;
+  width: 40px;
+  height: 15px;
+  margin-right: 4px;
+}
+
+.decreasing {
+  background-color: #7D1829
+}
+
+.strong {
+  background-color: #C31E39
+}
+
+.loose {
+  background-color: #F3AD44
+}
+
+.no-data {
+  background-color: #C4C4C4
 }
 
   
@@ -134,7 +226,7 @@ footer a:hover {
 
 footer .icon {
   margin-left: 16px;
-  opacity: 0.8;
+  opacity: 1;
   transition: all 200ms ease-in;
 }
 
