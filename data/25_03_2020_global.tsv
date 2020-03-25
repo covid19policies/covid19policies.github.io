@@ -1,0 +1,191 @@
+name	id	level
+Afghanistan	AFG	1
+Albania	ALB	2
+Algeria	DZA	1
+Andorra	AND	2
+Angola	AGO	0
+Antigua and Barbuda	ATG	0
+Argentina	ARG	2
+Armenia	ARM	1
+Australia	AUS	1
+Austria	AUT	1
+Azerbaijan	AZE	1
+Bahamas	BHS	1
+Bahrain	BHR	1
+Bangladesh	BGD	1
+Barbados	BRB	1
+Belarus	BLR	0
+Belgium	BEL	2
+Belize	BLZ	1
+Benin	BEN	0
+Bhutan	BTN	0
+Bolivia	BOL	1
+Bosnia and Herzegovina	BIH	1
+Botswana	BWA	1
+Brazil	BRA	1
+Brunei	BRN	1
+Bulgaria	BGR	1
+Burkina Faso	BFA	1
+Burundi	BDI	0
+Cambodia	KHM	1
+Cameroon	CMR	1
+Canada	CAN	1
+Cape Verde	CPV	0
+Central African Republic	CAF	0
+Chad	TCD	0
+Chile	CHL	1
+China	CHN	1
+Colombia	COL	2
+Comoros	COM	0
+Congo	COG	0
+Cook Islands	COK	1
+Costa Rica	CRI	1
+Cote d'Ivoire	CIV	2
+Croatia	HRV	1
+Cuba	CUB	1
+Cyprus	CYP	2
+Czech Republic	CZE	2
+Democratic Republic of Congo	COD	1
+Denmark	DNK	1
+Djibouti	DJI	0
+Dominica	DMA	0
+Dominican Republic	DOM	1
+Ecuador	ECU	1
+Egypt	EGY	2
+El Salvador	SLV	1
+Equatorial Guinea	GNQ	1
+Eritrea	ERI	0
+Estonia	EST	1
+Ethiopia	ETH	1
+Fiji	FJI	1
+Finland	FIN	1
+France	FRA	2
+Gabon	GAB	2
+Gambia	GMB	1
+Georgia	GEO	1
+Germany	DEU	2
+Ghana	GHA	1
+Greece	GRC	2
+Grenada	GRD	1
+Guatemala	GTM	2
+Guinea	GIN	0
+Guinea-Bissau	GNB	1
+Guyana	GUY	1
+Haiti	HTI	0
+Honduras	HND	2
+Hungary	HUN	1
+Iceland	ISL	1
+India	IND	2
+Indonesia	IDN	1
+Iran	IRN	1
+Iraq	IRQ	2
+Ireland	IRL	1
+Israel	ISR	1
+Italy	ITA	2
+Jamaica	JAM	1
+Japan	JPN	1
+Jordan	JOR	2
+Kazakhstan	KAZ	1
+Kenya	KEN	1
+Kiribati	KIR	0
+Kuwait	KWT	1
+Kyrgyzstan	KGZ	2
+Laos	LAO	1
+Latvia	LVA	1
+Lebanon	LBN	1
+Lesotho	LSO	1
+Liberia	LBR	1
+Libya	LBY	1
+Lithuania	LTU	1
+Luxembourg	LUX	1
+Macedonia	MKD	1
+Madagascar	MDG	2
+Malawi	MWI	1
+Malaysia	MYS	2
+Maldives	MDV	1
+Mali	MLI	1
+Malta	MLT	1
+Marshall Islands	MHL	0
+Mauritania	MRT	1
+Mauritius	MUS	2
+Mexico	MEX	1
+Micronesia (country)	FSM	1
+Moldova	MDA	2
+Mongolia	MNG	2
+Montenegro	MNE	1
+Morocco	MAR	2
+Mozambique	MOZ	1
+Myanmar	MMR	1
+Namibia	NAM	1
+Nauru	NRU	1
+Nepal	NPL	1
+Netherlands	NLD	1
+New Zealand	NZL	2
+Nicaragua	NIC	0
+Niger	NER	1
+Nigeria	NGA	1
+Niue	NIU	0
+North Korea	PRK	1
+Norway	NOR	1
+Oman	OMN	1
+Pakistan	PAK	1
+Palau	PLW	1
+Panama	PAN	2
+Papua New Guinea	PNG	1
+Paraguay	PRY	1
+Peru	PER	1
+Philippines	PHL	2
+Poland	POL	2
+Portugal	PRT	1
+Qatar	QAT	1
+Romania	ROU	2
+Russia	RUS	1
+Rwanda	RWA	2
+Saint Kitts and Nevis	KNA	0
+Saint Lucia	LCA	1
+Saint Vincent and the Grenadines	VCT	1
+Samoa	WSM	0
+Sao Tome and Principe	STP	1
+Saudi Arabia	SAU	2
+Senegal	SEN	2
+Serbia	SRB	1
+Seychelles	SYC	0
+Sierra Leone	SLE	1
+Singapore	SGP	1
+Slovakia	SVK	1
+Slovenia	SVN	1
+Solomon Islands	SLB	0
+Somalia	SOM	1
+South Africa	ZAF	2
+South Korea	KOR	1
+Spain	ESP	2
+Sri Lanka	LKA	2
+Sudan (former)	SDN	1
+Suriname	SUR	0
+Swaziland	SWZ	0
+Sweden	SWE	1
+Switzerland	CHE	1
+Syria	SYR	1
+Tajikistan	TJK	0
+Tanzania	TZA	1
+Thailand	THA	1
+Timor	TLS	1
+Togo	TGO	1
+Tonga	TON	1
+Trinidad and Tobago	TTO	1
+Tunisia	TUN	2
+Turkey	TUR	1
+Turkmenistan	TKM	0
+Tuvalu	TUV	0
+Uganda	UGA	1
+UK	GBR	2
+Ukraine	UKR	1
+Uruguay	URY	1
+Uzbekistan	UZB	1
+Vanuatu	VUT	0
+Venezuela	VEN	2
+Vietnam	VNM	1
+Yemen	YEM	1
+Zambia	ZMB	1
+Zimbabwe	ZWE	1
+United States	USA	1
