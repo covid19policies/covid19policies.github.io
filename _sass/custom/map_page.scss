@@ -20,13 +20,13 @@ body {
 }
 
 header {
-  position: absolute;
-  top: 25px;
-  left: 25px;
+  position: relative;
+  background: #F3E8E4;
+  padding: 15px 25px;
+  border-top: 2px solid #C31E39;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: calc(100% - 50px);
   z-index: 2;
 }
 
@@ -57,17 +57,13 @@ header .btn-sources:hover {
 
 
 .map-container {
-  position: fixed;
-  height: calc(100vh - 150px);
-  top: 52%;
-  transform: translateY(-50%);
-  width: 100vw;
+  margin-top: 40px;
 }
 
-.map-container svg {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+#map-area svg {
+  margin: 25px;
+  border: 1px solid #C31E39;
+  width: calc(100% - 50px);
 }
 
 .headline {
@@ -75,12 +71,14 @@ header .btn-sources:hover {
 }
 
 .headline h1 {
-  font-size: 30px;
+  font-size: 36px;
   font-family: 'bodoni-book', serif;
 }
 
 .headline h2 {
-  font-size: 16px;
+  margin-top: 8px;
+  margin-bottom: 0px;
+  font-size: 20px;
   font-family: 'bodoni-italic', serif;
 }
 
@@ -102,15 +100,14 @@ header .btn-sources:hover {
 
   
 footer { 
-  position: absolute;
-  bottom: 25px;
-  left: 25px;
+  padding: 15px 25px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: calc(100% - 50px);
   font-size: 18px;
   color: #302828;
+  background-color: #F3E8E4;
+  border-bottom: 2px solid #C31E39;
 }
 
 footer a {

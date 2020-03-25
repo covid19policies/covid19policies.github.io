@@ -12,12 +12,23 @@
         <h2>Follow us on Twitter <a href="https://twitter.com/covid19policies" target="_blank">@covid19policies</a></h2>
       </div>
 
-      <div id="map-area"></div>
-    </div>
-    <div class="py-5">
-      <div class="container page-content">
-          {{ content }}
+      <div class="controls">
+        <div class="filters">
+          View: 
+          <button>World</button>
+          <button>USA</button>
+        </div>
+
+        <div class="legends">
+          Contnaiment policy: 
+          <div class="legend-tip decreasing">Decreasing</div>
+          <div class="legend-tip strong">Strong</div>
+          <div class="legend-tip loose">Loose</div>
+          <div class="legend-tip no-data">No data</div>
+        </div>
       </div>
+
+      <div id="map-area"></div>
     </div>
 
     {%- include footer.html -%}
