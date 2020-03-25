@@ -8,9 +8,9 @@ var tip = d3.tip()
               return "<strong>Country: </strong><span class='details'>" + d.properties.name + "<br></span>" + "<strong>Level: </strong><span class='details'>" + format(d.level) +"</span>";
             })
 
-// var margin = {top: 0, right: 0, bottom: 0, left: 0},
-//             width = 960 - margin.left - margin.right,
-//             height = 500 - margin.top - margin.bottom;
+ var margin = {top: 0, right: 0, bottom: 0, left: 0},
+             width = 960 - margin.left - margin.right,
+             height = 500 - margin.top - margin.bottom;
 var chartDiv = document.getElementById("map-area");
 // var margin = {top: 0, right: 0, bottom: 0, left: 0};
 
