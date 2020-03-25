@@ -58,7 +58,7 @@ svg.call(tip);
 
 queue()
     .defer(d3.json, "data/world_countries.json")
-    .defer(d3.tsv, "data/24_03_20_global.tsv")
+    .defer(d3.tsv, "data/25_03_20_global.tsv")
     .await(ready);
 var countries,names;
 function ready(error, data, population) {
