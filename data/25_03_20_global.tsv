@@ -1,0 +1,242 @@
+country_id	country_name	20200328_date	IF 0	IF 1 	IF 2 	IF 3	IF 4	Score
+AFG	Afghanistan	2			1			1
+ALB	Albania	4					2	2
+DZA	Algeria	3				1		1
+AND	Andorra	4					2	2
+AGO	Angola	0	0					0
+ATG	Antigua and Barbuda	0	0					0
+ARG	Argentina	4					2	2
+ARM	Armenia	2			1			1
+AUS	Australia	3				1		1
+AUT	Austria	3				1		1
+AZE	Azerbaijan	2			1			1
+BHS	Bahamas	2			1			1
+BHR	Bahrain	2			1			1
+BGD	Bangladesh	3				1		1
+BRB	Barbados	1		1				1
+BLR	Belarus	0	0					0
+BEL	Belgium	4					2	2
+BLZ	Belize	2			1			1
+BEN	Benin	0	0					0
+BTN	Bhutan	0	0					0
+BOL	Bolivia	3				1		1
+BIH	Bosnia and Herzegovina	3				1		1
+BWA	Botswana	2			1			1
+BRA	Brazil	3				1		1
+BRN	Brunei	1		1				1
+BGR	Bulgaria	3				1		1
+BFA	Burkina Faso	3				1		1
+BDI	Burundi	0	0					0
+KHM	Cambodia	2			1			1
+CMR	Cameroon	2			1			1
+CAN	Canada	3				1		1
+CPV	Cape Verde	0	0					0
+CAF	Central African Republic	0	0					0
+TCD	Chad	0	0					0
+CHL	Chile	2			1			1
+CHN	China	2			1			1
+COL	Colombia	4					2	2
+COM	Comoros	0	0					0
+COG	Congo	0	0					0
+COK	Cook Islands	1		1				1
+CRI	Costa Rica	3				1		1
+CIV	Cote d'Ivoire	4					2	2
+HRV	Croatia	3				1		1
+CUB	Cuba	2			1			1
+CYP	Cyprus	4					2	2
+CZE	Czech Republic	4					2	2
+COD	Democratic Republic of Congo	3				1		1
+DNK	Denmark	3				1		1
+DJI	Djibouti	0	0					0
+DMA	Dominica	0	0					0
+DOM	Dominican Republic	2			1			1
+ECU	Ecuador	3				1		1
+EGY	Egypt	4					2	2
+SLV	El Salvador	3				1		1
+GNQ	Equatorial Guinea	2			1			1
+ERI	Eritrea	0	0					0
+EST	Estonia	2			1			1
+ETH	Ethiopia	2			1			1
+FJI	Fiji	2			1			1
+FIN	Finland	2			1			1
+FRA	France	4					2	2
+GAB	Gabon	4					2	2
+GMB	Gambia	2			1			1
+GEO	Georgia	3				1		1
+DEU	Germany	4					2	2
+GHA	Ghana	2			1			1
+GRC	Greece	4					2	2
+GRD	Grenada	2			1			1
+GTM	Guatemala	4					2	2
+GIN	Guinea	0	0					0
+GNB	Guinea-Bissau	2			1			1
+GUY	Guyana	2			1			1
+HTI	Haiti	0	0					0
+HND	Honduras	4					2	2
+HUN	Hungary	2			1			1
+ISL	Iceland	2			1			1
+IND	India	4					2	2
+IDN	Indonesia	2			1			1
+IRN	Iran	3				1		1
+IRQ	Iraq	4					2	2
+IRL	Ireland	3				1		1
+ISR	Israel	3				1		1
+ITA	Italy	4					2	2
+JAM	Jamaica	2			1			1
+JPN	Japan	1		1				1
+JOR	Jordan	4					2	2
+KAZ	Kazakhstan	3				1		1
+KEN	Kenya	2			1			1
+KIR	Kiribati	0	0					0
+KWT	Kuwait	3				1		1
+KGZ	Kyrgyzstan	4					2	2
+LAO	Laos	2			1			1
+LVA	Latvia	2			1			1
+LBN	Lebanon	3				1		1
+LSO	Lesotho	2			1			1
+LBR	Liberia	2			1			1
+LBY	Libya	2			1			1
+LTU	Lithuania	2			1			1
+LUX	Luxembourg	3				1		1
+MKD	Macedonia	2			1			1
+MDG	Madagascar	4					2	2
+MWI	Malawi	2			1			1
+MYS	Malaysia	4					2	2
+MDV	Maldives	2			1			1
+MLI	Mali	2			1			1
+MLT	Malta	3				1		1
+MHL	Marshall Islands	0	0					0
+MRT	Mauritania	2			1			1
+MUS	Mauritius	4					2	2
+MEX	Mexico	2			1			1
+FSM	Micronesia (country)	2			1			1
+MDA	Moldova	4					2	2
+MNG	Mongolia	4					2	2
+MNE	Montenegro	3				1		1
+MAR	Morocco	4					2	2
+MOZ	Mozambique	2			1			1
+MMR	Myanmar	2			1			1
+NAM	Namibia	2			1			1
+NRU	Nauru	2			1			1
+NPL	Nepal	2			1			1
+NLD	Netherlands	3				1		1
+NZL	New Zealand	4					2	2
+NIC	Nicaragua	0	0					0
+NER	Niger	2			1			1
+NGA	Nigeria	2			1			1
+NIU	Niue	0	0					0
+PRK	North Korea	2			1			1
+NOR	Norway	3				1		1
+OMN	Oman	3				1		1
+PAK	Pakistan	3				1		1
+PLW	Palau	2			1			1
+PAN	Panama	4					2	2
+PNG	Papua New Guinea	2			1			1
+PRY	Paraguay	2			1			1
+PER	Peru	2			1			1
+PHL	Philippines	4					2	2
+POL	Poland	4					2	2
+PRT	Portugal	3				1		1
+QAT	Qatar	3				1		1
+ROU	Romania	4					2	2
+RUS	Russia	2			1			1
+RWA	Rwanda	4					2	2
+KNA	Saint Kitts and Nevis	0	0					0
+LCA	Saint Lucia	2			1			1
+VCT	Saint Vincent and the Grenadines	2			1			1
+WSM	Samoa	0	0					0
+STP	Sao Tome and Principe	2			1			1
+SAU	Saudi Arabia	4					2	2
+SEN	Senegal	4					2	2
+SRB	Serbia	2			1			1
+SYC	Seychelles	0	0					0
+SLE	Sierra Leone	1		1				1
+SGP	Singapore	1		1				1
+SVK	Slovakia	3				1		1
+SVN	Slovenia	2			1			1
+SLB	Solomon Islands	0	0					0
+SOM	Somalia	2			1			1
+ZAF	South Africa	4					2	2
+KOR	South Korea	2			1			1
+ESP	Spain	4					2	2
+LKA	Sri Lanka	4					2	2
+SDN	Sudan (former)	2			1			1
+SUR	Suriname	0	0					0
+SWZ	Swaziland	0	0					0
+SWE	Sweden	2			1			1
+CHE	Switzerland	3				1		1
+SYR	Syria	2			1			1
+TJK	Tajikistan	0	0					0
+TZA	Tanzania	2			1			1
+THA	Thailand	3				1		1
+TLS	Timor	2			1			1
+TGO	Togo	2			1			1
+TON	Tonga	1		1				1
+TTO	Trinidad and Tobago	2			1			1
+TUN	Tunisia	4					2	2
+TUR	Turkey	3				1		1
+TKM	Turkmenistan	0	0					0
+TUV	Tuvalu	0	0					0
+UGA	Uganda	2			1			1
+GBR	UK	4					2	2
+UKR	Ukraine	3				1		1
+ARE	United Arab Emirates	3				1		1
+AK	United States	2			1			1
+AL	United States	2			1			1
+AR	United States	2			1			1
+AZ	United States	2			1			1
+CA	United States	4					2	2
+CO	United States	3				1		1
+CT	United States	3				1		1
+DC	United States	4					2	2
+DE	United States	4					2	2
+FL	United States	2			1			1
+GA	United States	2			1			1
+HI	United States	4					2	2
+IA	United States	3				1		1
+ID	United States	2			1			1
+IL	United States	4					2	2
+IN	United States	4					2	2
+KS	United States	2			1			1
+KY	United States	3				1		1
+LA	United States	4					2	2
+MA	United States	4					2	2
+MD	United States	2			1			1
+ME	United States	2			1			1
+MI	United States	4					2	2
+MN	United States	3				1		1
+MO	United States	3				1		1
+MS	United States	2			1			1
+MT	United States	2			1			1
+NC	United States	3				1		1
+ND	United States	2			1			1
+NE	United States	3				1		1
+NH	United States	3				1		1
+NJ	United States	4					2	2
+NM	United States	2			1			1
+NV	United States	2			1			1
+NY	United States	4					2	2
+OH	United States	4					2	2
+OK	United States	2			1			1
+OR	United States	4					2	2
+PA	United States	3				1		1
+RI	United States	2			1			1
+SC	United States	2			1			1
+SD	United States	2			1			1
+TN	United States	2			1			1
+TX	United States	2			1			1
+UT	United States	3				1		1
+VA	United States	3				1		1
+VT	United States	3				1		1
+WA	United States	4					2	2
+WI	United States	3				1		1
+WV	United States	4					2	2
+WY	United States	2			1			1
+URY	Uruguay	3				1		1
+UZB	Uzbekistan	3				1		1
+VUT	Vanuatu	0	0					0
+VEN	Venezuela	4					2	2
+VNM	Vietnam	2			1			1
+YEM	Yemen	2			1			1
+ZMB	Zambia	2			1			1
+ZWE	Zimbabwe	1		1				1
