@@ -5,7 +5,7 @@ var tip = d3.tip()
             .attr('class', 'd3-tip')
             .offset([-10, 0])
             .html(function(d) {
-              return "<strong>Country: </strong><span class='details'>" + d.properties.name + "<br></span>" + "<strong>Level: </strong><span class='details'>" + format(d.level) +"</span>";
+              return "<strong>Country: </strong><span class='details'>" + d.properties.name + "<br></span>" + "<strong>Advancement: </strong><span class='details'>" + format(d.level) +"</span>";
             })
 
 // var margin = {top: 0, right: 0, bottom: 0, left: 0},
@@ -15,8 +15,8 @@ var chartDiv = document.getElementById("map-area");
 // var margin = {top: 0, right: 0, bottom: 0, left: 0};
 
 var color = d3.scaleThreshold()
-    .domain([0,0.5,1.5,3])
-    .range(["rgb(255,255,255)", "rgb(255,255,255)", "rgb(248,124,8)", "rgb(249,47,21)"]);
+    .domain([0,0.5,1.5,2.5,3])
+    .range(["rgb(255,255,255)", "rgb(255,255,255)", "rgb(248,124,8)", "rgb(249,47,21)", "rgb(128,47,21)"]);
 
 var path = d3.geoPath();
 
@@ -30,7 +30,7 @@ svg.call(tip);
 
 queue()
     .defer(d3.json, "data/world_countries.json")
-    .defer(d3.tsv, "data/world_measures.tsv")
+    .defer(d3.tsv, "data/24_03_20_global.tsv")
     .await(ready);
 var countries,names;
 function ready(error, data, population) {
