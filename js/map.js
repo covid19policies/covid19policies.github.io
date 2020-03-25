@@ -93,7 +93,7 @@ function ready(error, data, population) {
       .enter().append("path")
         .attr("d", path)
         .style("fill", function(d) { return color(d.level); })
-        .style('stroke', '#C4C4C4')
+        .style('stroke', '#302828')
         .style('stroke-width', 0.2)
         .style("opacity",1)
         .on('mouseover',function(d){
@@ -109,7 +109,7 @@ function ready(error, data, population) {
 
           d3.select(this)
             .style("opacity", 1)
-            .style("stroke","#C4C4C4")
+            .style("stroke","#302828")
             .style("stroke-width",0.2);
         });
         // tip.style("stroke","white")
