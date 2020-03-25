@@ -12,37 +12,35 @@
         <h2>Follow us on Twitter <a href="https://twitter.com/covid19policies" target="_blank">@covid19policies</a></h2>
       </div>
 
-      <div class="controls">
-        <div class="filters">
-          <button class="active">World</button>
-          <button disabled class="disable">USA</button>
-        </div>
-
-        <div class="legends">
-          <span>Containment policy:</span>
-          <div class="legend-tip">
-            <span class="decreasing"></span>
-            Decreasing
-          </div>
-
-          <div class="legend-tip">
-            <span class="strong"></span>
-            Strong
-          </div>
-
-          <div class="legend-tip">
-            <span class="loose"></span>
-            Loose
-          </div>
-
-          <div class="legend-tip">
-            <span class="no-data"></span>
-            No data
-          </div>
-        </div>
+      <div class="filters">
+        <button class="active">World</button>
+        <button disabled class="disable">USA <span>(soon)</span></button>
       </div>
 
       <div id="map-area"></div>
+
+      <div class="legends">
+        <span>Containment policy:</span>
+        <div class="legend-tip">
+          <span class="decreasing"></span>
+          Decreasing
+        </div>
+
+        <div class="legend-tip">
+          <span class="strong"></span>
+          Strong
+        </div>
+
+        <div class="legend-tip">
+          <span class="loose"></span>
+          Loose
+        </div>
+
+        <div class="legend-tip">
+          <span class="no-data"></span>
+          No data
+        </div>
+      </div>
     </div>
 
     {%- include footer.html -%}

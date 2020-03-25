@@ -101,50 +101,52 @@ header .btn-sources:hover {
   color: #C31E39;
 }
 
-.controls {
+.filters {
   display: flex;
-  align-items: flex-end;
-  justify-content: space-between;
+  align-items: center;
   width: 100%;
   margin-bottom: 8px;
   margin-top: 30px;
-}
-
-.controls .filters {
   font-size: 16px;
 }
 
-.controls .filters span {
+.filters span {
   margin-right: 8px;
   font-family: 'bodoni-italic', serif;
   font-size: 18px;
   text-decoration: underline;
 }
 
-.controls .filters button {
+.filters button {
   margin-right: 8px;
   padding: 5px 10px;
   transition: all 200ms linear;
 }
 
-.controls .filters .disable {
+.filters button span {
+  font-family: 'bodoni-italic', serif;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.filters .disable {
   background: #C4C4C4;
   cursor: not-allowed;
 }
 
-.controls .filters .no-active {
+.filters .no-active {
   background: #C31E39;
   border: 1px solid #C31E39;
   color: #F3E8E4;
 }
 
-.controls .filters .no-active:hover {
+.filters .no-active:hover {
   background: #F3E8E4;
   border: 1px solid #C31E39;
   color: #C31E39;
 }
 
-.controls .filters .active {
+.filters .active {
   background: #F3E8E4;
   border: 1px solid #C31E39;
   color: #C31E39;
@@ -153,7 +155,9 @@ header .btn-sources:hover {
 
 .legends {
   display: flex;
+  justify-content: flex-end;
   align-items: center;
+  margin-top: 8px;
 }
 
 .legends span {
@@ -164,12 +168,12 @@ header .btn-sources:hover {
 .legend-tip {
   display: flex;
   align-items: center;
-  margin-left: 16px;
+  margin-left: 10px;
 }
 
 .legend-tip span {
   display: block;
-  width: 40px;
+  width: 30px;
   height: 15px;
   margin-right: 4px;
 }
@@ -240,4 +244,37 @@ footer .icon:after {
 
 footer .footer-desc {
   font-family: 'bodoni-italic', serif;
+}
+
+.logo-mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .hidden-mobile {
+    display: none;
+  }
+
+  .logo-mobile {
+    display: initial;
+  }
+
+  .logo-desktop {
+    display: none;
+  }
+
+  footer {
+    flex-direction: column-reverse;
+  }
+
+  .legends {
+    justify-content: center;
+    flex-flow: row wrap;
+  }
+
+  .footer-desc {
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+  }
 }
