@@ -45,7 +45,7 @@ var chartDiv = document.getElementById("map-area");
 
 var color = d3.scaleThreshold()
     .domain([-10,0,0.5,1.5,2.5,3])
-    .range(["rgb(170,170,170)", "rgb(170,170,170)", "rgb(255,255,255)", "rgb(248,124,8)", "rgb(249,47,21)", "rgb(128,47,21)"]);
+    .range(["#C4C4C4", "#C4C4C4", "#FFFFFF", "#F3AD44", "#C31E39", "#7D1829"]);
 
 var path = d3.geoPath();
 
@@ -93,24 +93,24 @@ function ready(error, data, population) {
       .enter().append("path")
         .attr("d", path)
         .style("fill", function(d) { return color(d.level); })
-        .style('stroke', '#32383e')
-        .style('stroke-width', 0.3)
+        .style('stroke', '#C4C4C4')
+        .style('stroke-width', 0.2)
         .style("opacity",1)
         .on('mouseover',function(d){
           tip.show(d);
 
           d3.select(this)
             .style("opacity", 1)
-            .style("stroke","#32383e")
-            .style("stroke-width",3);
+            .style("stroke","#302828")
+            .style("stroke-width",2);
         })
         .on('mouseout', function(d){
           tip.hide(d);
 
           d3.select(this)
             .style("opacity", 1)
-            .style("stroke","#32383e")
-            .style("stroke-width",0.3);
+            .style("stroke","#C4C4C4")
+            .style("stroke-width",0.2);
         });
         // tip.style("stroke","white")
         // .style('stroke-width', 0.3)
