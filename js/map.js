@@ -7,19 +7,19 @@ var wordings = [
   },
   {
     level: 0,
-    wording: "No real containment policy"
+    wording: "No action taken yet "
   },
   {
     level: 1,
-    wording: "Loose containment policy"
+    wording: "Loose lockdown policy"
   },
   {
     level: 2,
-    wording: "Strong containment policy"
+    wording: "Strong lockdown policy"
   },
   {
     level: 3,
-    wording: "Decreasing containment policy"
+    wording: "Outbreak stabilized for now"
   },
 ]
 
