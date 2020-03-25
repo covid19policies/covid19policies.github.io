@@ -30,7 +30,7 @@ header {
   z-index: 2;
 }
 
-header .logo {  
+header .logo {
   opacity: 1;
   transition: all 200ms ease-in;
 }
@@ -48,7 +48,7 @@ header .btn-sources {
   font-size: 20px;
   transition: all 200ms ease-in;
 }
-    
+
 header .btn-sources:hover {
   background-color: #F3E8E4;
   border: 1px solid #C31E39;
@@ -188,11 +188,15 @@ header .btn-sources:hover {
   background-color: #F3AD44
 }
 
+.no-policy {
+  background-color: #FFFFFF
+}
+
 .no-data {
   background-color: #C4C4C4
 }
-  
-footer { 
+
+footer {
   padding: 15px 25px;
   display: flex;
   align-items: center;
