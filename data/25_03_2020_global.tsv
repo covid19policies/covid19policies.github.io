@@ -34,7 +34,7 @@ Cape Verde	CPV	0
 Central African Republic	CAF	0
 Chad	TCD	0
 Chile	CHL	1
-China	CHN	1
+China	CHN	3
 Colombia	COL	2
 Comoros	COM	0
 Congo	COG	0
@@ -151,13 +151,13 @@ Senegal	SEN	2
 Serbia	SRB	1
 Seychelles	SYC	0
 Sierra Leone	SLE	1
-Singapore	SGP	1
+Singapore	SGP	2
 Slovakia	SVK	1
 Slovenia	SVN	1
 Solomon Islands	SLB	0
 Somalia	SOM	1
 South Africa	ZAF	2
-South Korea	KOR	1
+South Korea	KOR	2
 Spain	ESP	2
 Sri Lanka	LKA	2
 Sudan (former)	SDN	1
@@ -168,6 +168,7 @@ Switzerland	CHE	1
 Syria	SYR	1
 Tajikistan	TJK	0
 Tanzania	TZA	1
+Taiwan	TWN	2
 Thailand	THA	1
 Timor	TLS	1
 Togo	TGO	1
@@ -189,4 +190,4 @@ Yemen	YEM	1
 Zambia	ZMB	1
 Zimbabwe	ZWE	1
 United States	USA	1
-Greenland	GRL 1
+Greenland	GRL	1
