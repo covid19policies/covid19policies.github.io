@@ -35,7 +35,6 @@ var color = d3.scaleThreshold()
 
 
 window.initMap = function() {
-
   window.clearMap && window.clearMap();
   var currentMap = (window.nav && window.nav.map) || "world";
   // Set tooltips
@@ -163,7 +162,8 @@ window.initMap = function() {
       svgRoot.remove();
     }
   }
+};
+
+if (window.navInitiatied) {
+  window.initMap();
 }
-
-
-window.initMap();
