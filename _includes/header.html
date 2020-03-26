@@ -1,8 +1,41 @@
-<header>
+<!-- <header>
   <a href="{{ "/" | relative_url }}">
-    <img src="assets/img/logo-desktop.svg" class="logo logo-desktop" />
-
-    <img src="assets/img/logo-mobile.svg" class="logo logo-mobile" />
+    <img src="assets/img/logo-desktop-light.svg" class="logo" />
   </a>
 
-</header>
+  <nav>
+    <a href="#" class="link-effect">About us</a>
+    <a href="https://twitter.com/covid19policies" target="_blank" class="link-effect">Twitter</a>
+    <a href="mailto:contact@polite.one" class="btn-sources">Update / Error?</a>
+  </nav>
+</header> -->
+
+<nav class="navbar navbar-light">
+  <a class="navbar-brand" href="#">
+    <img src="assets/img/logo-desktop-light.svg" width="50" height="50" alt="">
+  </a>
+
+  <button class="hidden-desktop navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item mobile-link">
+        <a href="#">About us</a>
+      </li>
+      <li class="nav-item mobile-link">
+        <a href="https://twitter.com/covid19policies" target="_blank">Twitter</a>
+      </li>
+      <li class="nav-item btn-mobile">
+        <a href="mailto:contact@polite.one" class="btn-sources">Update / Error?</a>
+      </li>
+    </ul>
+  </div>
+
+  <div class="navbar-text hidden-mobile">
+    <a href="#" class="link-effect">About us</a>
+    <a href="https://twitter.com/covid19policies" target="_blank" class="link-effect">Twitter</a>
+    <a href="mailto:contact@polite.one" class="btn-sources">Update / Error?</a>
+  </div>
+</nav>
