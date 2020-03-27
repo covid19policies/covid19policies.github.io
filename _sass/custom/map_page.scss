@@ -1,3 +1,6 @@
+///////////////
+/* FONT FACE */
+///////////////
 @font-face {
   font-family: "bodoni-book";
   src: url("/assets/fonts/Bodoni_book.ttf");
@@ -8,10 +11,26 @@
   src: url("/assets/fonts/MetricLight.woff");
 }
 
+@font-face {
+  font-family: "metric-medium";
+  src: url("/assets/fonts/MetricMedium.woff");
+}
+
+
+
+
+///////////////////
+/* GENERAL SETUP */
+///////////////////
+
 body {
-  background-color: #F3E8E4;
+  background: var(--second-color);
   font-family: 'metric-light', sans-serif;
-  color: #302828;
+  color: var(--text-color);
+
+  --main-color: #7D1829;
+  --text-color: #302828;
+  --second-color: #F3E8E4;
 }
 
 .m-top-32 {
@@ -19,8 +38,21 @@ body {
 }
 
 .red {
-  color: #7D1829;
+  color: var(--main-color);
 }
+
+.hidden-desktop, .logo-mobile {
+  display: none;
+}
+
+
+
+///////////////////////
+/* NAVIGATION SYSTEM */
+///////////////////////
+
+
+/* Bootstrap navbar custom */
 
 .navbar {
   padding: 25px;
@@ -35,13 +67,54 @@ body {
 }
 
 .navbar-toggler {
-  border: 1px solid #7D1829 !important;
-  color: #7D1829 !important;
+  padding: 10px !important;
+  border: 1px solid var(--main-color) !important;
+  color: var(--main-color) !important;
+  border-radius: 0px;
+}
+
+.navbar-toggler-icon {
+  width: 28px !important;
+  height: 28px !important;
 }
 
 .navbar-collapse {
   margin-top: 8px;
-  border: 1px solid #7D1829;
+  border: 1px solid var(--main-color);
+}
+
+.navbar-text a {
+  margin-left: 24px;
+  text-shadow: none;
+  font-size: 20px;
+  color: var(--main-color) !important;
+  text-decoration: none;
+}
+
+.navbar-text a:hover {
+  color: var(--main-color) !important;
+}
+
+.navbar-text .btn-sources {
+  padding: 10px 20px 5px 20px;
+  background: var(--second-color);
+  border: 1px solid var(--main-color);
+  border-radius: 2px;
+  transition: all 200ms ease-in;
+}
+
+.navbar-text .btn-sources:hover {
+  background-color: var(--main-color);
+  border: 1px solid var(--main-color);
+  color: var(--second-color) !important;
+  text-decoration: none;
+}
+
+
+/* Mobile navigation */
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("/assets/img/menu.svg") !important;
 }
 
 .mobile-link {
@@ -51,106 +124,24 @@ body {
 }
 
 .mobile-link a {
-  color: #302828;
+  color: var(--text-color);
 }
 
 .btn-mobile {
-  background-color: #7D1829;
+  background-color: var(--main-color);
   font-size: 20px;
   text-shadow: none;
   padding: 16px;
   margin-top: 8px;
 }
 
-.navbar-text a {
-  margin-left: 24px;
-  text-shadow: none;
-  font-size: 20px;
-  color: #7D1829 !important;
-  text-decoration: none;
-}
-
-.navbar-text a:hover {
-  color: #7D1829 !important;
-}
-
-.navbar-text .btn-sources {
-  padding: 10px 20px 5px 20px;
-  background-color: #F3E8E4;
-  border: 1px solid #7D1829;
-  border-radius: 2px;
-  transition: all 200ms ease-in;
-}
-
-.navbar-text .btn-sources:hover {
-  background-color: #7D1829;
-  border: 1px solid #7D1829;
-  color: #F3E8E4 !important;
-  text-decoration: none;
-}
-
-.presentation {
-  padding: 10px 0px 80px 0px;
-  background-color: #F3E8E4;
-  color: #302828;
-  overflow: hidden;
-}
-
-.presentation-content {
+.btn-mobile a {
   position: relative;
-  padding: 0px 25px;
-  max-width: 900px;
-  width: 100%;
-  margin: 0 auto;
+  top: 3px;
 }
 
-.presentation-desc {
-  position: relative;
-  font-size: 24px;
-  line-height: 150%;
-  margin: 0 auto;
-  margin-top: 16px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  justify-content: flex-end;
-}
 
-.presentation .headline {
-  text-align: left !important;
-  color: #7D1829;
-}
-
-.headline {
-  position: relative;
-  text-align: center
-}
-
-.headline h1 {
-  font-size: 40px;
-  font-family: 'bodoni-book', serif;
-}
-
-.headline h2 {
-  margin-top: 16px;
-  margin-bottom: 0px;
-  font-size: 26px;
-}
-
-.headline h1, .headline h2 {
-  text-shadow: none;
-  line-height: 130%;
-}
-
-.presentation-desc p {
-  position: relative;
-  margin-bottom: 8px;
-}
-
-.presentation-desc a {
-  transition: all 200ms ease-in;
-  color: #7D1829;
-}
+/* Link effect and styling */
 
 .link-effect {
   cursor: pointer;
@@ -193,14 +184,100 @@ body {
   transition: all ease 0.2s;
 }
 
+
+
+
+//////////////////
+/* PRESENTATION */
+//////////////////
+
+.presentation {
+  padding: 10px 0px 80px 0px;
+  background: var(--second-color);
+  color: var(--text-color);
+  overflow: hidden;
+}
+
+
+/* Presentation headline */
+
+.presentation .headline {
+  text-align: left !important;
+  color: var(--main-color);
+}
+
+.headline {
+  position: relative;
+  text-align: center
+}
+
+.headline h1 {
+  font-size: 40px;
+  font-family: 'bodoni-book', serif;
+}
+
+.headline h2 {
+  margin-top: 16px;
+  margin-bottom: 0px;
+  font-size: 26px;
+}
+
+.headline h1, .headline h2 {
+  text-shadow: none;
+  line-height: 130%;
+}
+
+
+/* Presentation content */
+
+.presentation-content {
+  position: relative;
+  padding: 0px 25px;
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.presentation-desc {
+  position: relative;
+  font-size: 24px;
+  line-height: 150%;
+  margin: 0 auto;
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.presentation-desc p {
+  position: relative;
+  margin-bottom: 8px;
+}
+
+.presentation-desc a {
+  transition: all 200ms ease-in;
+  color: var(--main-color);
+}
+
+
+
+
+/////////
+/* MAP */
+/////////
+
 .map-container {
   padding: 25px;
 }
 
 #map-area {
-  border: 1px solid #7D1829;
+  border: 1px solid var(--main-color);
   font-size: 16px;
 }
+
+
+/* Filters */
 
 .filters {
   display: flex;
@@ -217,29 +294,32 @@ body {
   padding: 10px 30px 5px 30px;;
   transition: all 200ms linear;
   outline: 0;
-  background: #F3E8E4;
-  border: 1px solid #7D1829;
-  color: #7D1829;
+  background: var(--second-color);
+  border: 1px solid var(--main-color);
+  color: var(--main-color);
   transition: all 200ms ease-in;
 }
 
 .filters button:hover {
-  background: #7D1829;
-  border: 1px solid #7D1829;
-  color: #F3E8E4;
+  background: var(--main-color);
+  border: 1px solid var(--main-color);
+  color: var(--second-color);
 }
 
 .filters .no-active:hover {
-  background: #F3E8E4;
-  border: 1px solid #C31E39;
-  color: #C31E39;
+  background: var(--second-color);
+  border: 1px solid var(--main-color);
+  color: var(--main-color);
 }
 
 .filters .active {
-  background: #7D1829;
-  border: 1px solid #7D1829;
-  color: #F3E8E4;
+  background: var(--main-color);
+  border: 1px solid var(--main-color);
+  color: var(--second-color);
 }
+
+
+/* Legends */
 
 .legends {
   margin-top: 16px;
@@ -267,8 +347,11 @@ body {
   margin-right: 4px;
 }
 
+
+/* Legends colors */
+
 .decreasing {
-  background-color: #7D1829;
+  background-color: var(--main-color);
 }
 
 .strong {
@@ -287,55 +370,59 @@ body {
   background-color: #C4C4C4;
 }
 
+
+/* Map tooltips */
+
+.d3-tip {
+  transition: all 200ms ease-out;
+  background-color: var(--text-color) !important;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 18px;
+   color: var(--second-color);
+}
+
+.d3-tip:before {
+  background-color: var(--text-color) !important;
+}
+
+.d3-tip .tip-country {
+  position: relative;
+  top: 1px;
+}
+
+.d3-tip .tip-details {
+  position: relative;
+  top: 1px;
+}
+
+.d3-tip .tip-status {
+  position: relative;
+  top: 3px;
+  font-family: 'metric-medium', sans-serif;
+}
+
+
+////////////
+/* Footer */
+////////////
+
 footer {
   padding: 15px 25px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   font-size: 18px;
-  color: #F3E8E4;
-  background-color: #7D1829;
+  color: var(--second-color);
+  background-color: var(--main-color);
 }
 
-footer a {
-  position: relative;
-  color: #302828;
-  text-decoration: none;
-  transition: all 200ms ease-out;
-}
 
-footer a:after {
-  content: '';
-  position: absolute;
-  width: 100%;
-  height: 1px;
-  background-color: #7D1829;
-  left: 0;
-  bottom: 2px;
-}
 
-footer a:hover {
-  color: #7D1829;
-  text-decoration: none !important;
-}
 
-footer .icon {
-  margin-left: 16px;
-  opacity: 1;
-  transition: all 200ms ease-in;
-}
-
-footer .icon:hover {
-  opacity: 0.8;
-}
-
-footer .icon:after {
-  display: none;
-}
-
-.hidden-desktop, .logo-mobile {
-  display: none;
-}
+////////////////
+/* Responsive */
+////////////////
 
 @media only screen and (max-width: 650px) {
   .hidden-mobile, .logo-desktop {

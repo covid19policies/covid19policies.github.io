@@ -44,12 +44,12 @@ window.initMap = function() {
     .html(function(d) {
       var word = wordings.find(w => w.level === d.level);
       if (currentMap === "world") {
-        return "<strong>Country: </strong><span class='details'>" +
+        return "<span class='tip-country'>Country: </span><span class='tip-details'>" +
         d.properties.name +
         "<br></span>" +
-        "<strong>" +
+        "<span class='tip-status'>" +
         (word && word.wording) || wordings[0].wording +
-        "</strong>";
+        "</span>";
       } else if (currentMap === "us") {
         return "<strong>State: </strong><span class='details'>" +
         d.properties.name +
