@@ -72,7 +72,7 @@ window.initMap = function() {
   var dataSources;
   if (currentMap === "world") {
     dataSources = {
-      map: "data/world_countries.json",
+      map: "data/world_countries_modified.json",
       data: "data/25_03_2020_global.tsv"
     };
   } else if (currentMap === "us") {
