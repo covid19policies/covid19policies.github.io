@@ -51,12 +51,12 @@ window.initMap = function() {
         (word && word.wording) || wordings[0].wording +
         "</span>";
       } else if (currentMap === "us") {
-        return "<strong>State: </strong><span class='details'>" +
+        return "<span class='tip-country'>State: </span><span class='tip-details'>" +
         d.properties.name +
         "<br></span>" +
-        "<strong>" +
+        "<span class='tip-status'>" +
         (word && word.wording) || wordings[0].wording +
-        "</strong>";
+        "</span>";
       }
     });
 
