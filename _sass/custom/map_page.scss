@@ -1,16 +1,6 @@
 @font-face {
-  font-family: "bodoni-italic";
-  src: url("/assets/fonts/Bodoni_italic.ttf");
-}
-
-@font-face {
   font-family: "bodoni-book";
   src: url("/assets/fonts/Bodoni_book.ttf");
-}
-
-@font-face {
-  font-family: "bodoni-bold";
-  src: url("/assets/fonts/Bodoni_bold.ttf");
 }
 
 @font-face {
@@ -18,20 +8,14 @@
   src: url("/assets/fonts/MetricLight.woff");
 }
 
-@font-face {
-  font-family: "metric-regular";
-  src: url("/assets/fonts/MetricRegular.woff");
-}
-
-@font-face {
-  font-family: "metric-medium";
-  src: url("/assets/fonts/MetricMedium.woff");
-}
-
 body {
   background-color: #F3E8E4;
-  font-family: 'metric-regular', sans-serif;
+  font-family: 'metric-light', sans-serif;
   color: #302828;
+}
+
+.m-top-32 {
+  margin-top: 32px;
 }
 
 .red {
@@ -83,15 +67,12 @@ body {
   text-shadow: none;
   font-size: 20px;
   color: #7D1829 !important;
-  font-family: 'metric-light', sans-serif;
   text-decoration: none;
 }
 
 .navbar-text a:hover {
   color: #7D1829 !important;
 }
-
-
 
 .navbar-text .btn-sources {
   padding: 10px 20px 5px 20px;
@@ -109,7 +90,7 @@ body {
 }
 
 .presentation {
-  padding: 60px 0px 80px 0px;
+  padding: 10px 0px 80px 0px;
   background-color: #F3E8E4;
   color: #302828;
   overflow: hidden;
@@ -117,8 +98,8 @@ body {
 
 .presentation-content {
   position: relative;
-  max-width: 900px;
   padding: 0px 25px;
+  max-width: 900px;
   width: 100%;
   margin: 0 auto;
 }
@@ -128,7 +109,7 @@ body {
   font-size: 24px;
   line-height: 150%;
   margin: 0 auto;
-  margin-top: 40px;
+  margin-top: 16px;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -154,7 +135,6 @@ body {
   margin-top: 16px;
   margin-bottom: 0px;
   font-size: 26px;
-  font-family: 'metric-light', sans-serif;
 }
 
 .headline h1, .headline h2 {
@@ -164,12 +144,10 @@ body {
 
 .presentation-desc p {
   position: relative;
-  font-family: 'metric-light', sans-serif;
   margin-bottom: 8px;
 }
 
 .presentation-desc a {
-  font-family: 'metric-light', sans-serif;
   transition: all 200ms ease-in;
   color: #7D1829;
 }
@@ -221,7 +199,7 @@ body {
 
 #map-area {
   border: 1px solid #7D1829;
-  margin-top: -1px;
+  font-size: 16px;
 }
 
 .filters {
@@ -230,16 +208,15 @@ body {
   justify-content: flex-start;
   width: 100%;
   margin-top: 32px;
+  margin-bottom: 8px;
 }
 
 .filters button {
   font-size: 20px;
   margin-right: 4px;
-  padding: 10px 20px 5px 20px;;
+  padding: 10px 30px 5px 30px;;
   transition: all 200ms linear;
   outline: 0;
-  max-width: 200px;
-  width: 100%;
   background: #F3E8E4;
   border: 1px solid #7D1829;
   color: #7D1829;
@@ -265,30 +242,27 @@ body {
 }
 
 .legends {
-  margin-top: 4px;
+  margin-top: 16px;
   display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  flex-flow: row wrap;
+  flex-direction: column;
 }
 
-.legend-title {
-  font-family: 'metric-regular', sans-serif;
-  font-size: 16px;
-  top: -2px;
+.legend-text {
+  font-size: 20px;
   position: relative;
+  top: 3px;
+  margin-left: 8px;
 }
 
 .legend-tip {
   display: flex;
-  margin-left: 10px;
-  font-family: 'metric-light', sans-serif;
+  margin-bottom: 8px;
 }
 
 .color-tip {
   display: block;
-  width: 30px;
-  height: 15px;
+  width: 60px;
+  height: auto;
   font-size: 14px;
   margin-right: 4px;
 }
@@ -321,10 +295,6 @@ footer {
   font-size: 18px;
   color: #F3E8E4;
   background-color: #7D1829;
-}
-
-.footer-desc {
-  font-family: 'metric-light', sans-serif;
 }
 
 footer a {
@@ -363,31 +333,21 @@ footer .icon:after {
   display: none;
 }
 
-.logo-mobile {
+.hidden-desktop, .logo-mobile {
   display: none;
 }
 
-.hidden-desktop {
-  display: none;
+@media only screen and (max-width: 650px) {
+  .hidden-mobile, .logo-desktop {
+    display: none;
+  }
+
+  .hidden-desktop, .logo-mobile  {
+    display: initial;
+  }
 }
 
 @media only screen and (max-width: 600px) {
-  .hidden-mobile {
-    display: none;
-  }
-
-  .hidden-desktop {
-    display: initial;
-  }
-
-  .logo-mobile {
-    display: initial;
-  }
-
-  .logo-desktop {
-    display: none;
-  }
-
   footer {
     flex-direction: column-reverse;
   }
@@ -410,12 +370,12 @@ footer .icon:after {
     font-size: 32px;
   }
 
-  .presentation-desc p {
-    font-size: 18px;
-  }
-
   header nav a {
     font-size: 18px;
     margin-left: 16px;
+  }
+
+  .presentation-desc a, .legend-text, .presentation-desc p {
+    font-size: 18px;
   }
 }
