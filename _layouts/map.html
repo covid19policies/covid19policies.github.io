@@ -10,56 +10,74 @@
     <div class="map-container">
       <div class="headline">
         <h1>
-          Roadmap to <b>C</b>ovid-<b><span class="red">19</span></b> Suppression
+          Roadmap to <span class="serif">C</span>ovid<b><span class="serif red">19</span></b> Suppression
         </h1>
-        <h2>We are tracking government response to the Covid-<span class="red">19</span> outbreak.</h2>
+
+        <h2>
+          We are tracking government response to the Covid<span class="red">19</span> outbreak.
+        </h2>
       </div>
 
       <div class="filters">
-        <button id="nav-world" class="active">World</button>
-        <button id="nav-us">USA</button>
+        <button id="nav-world" class="active">
+          World
+        </button>
+
+        <button id="nav-us">
+          USA
+        </button>
       </div>
 
       <div id="map-area"></div>
+    
+      <div class="legends">
+        <div class="headline-left">
+          <h2>Status:</h2>
+        </div>
+
+        <div class="legend-tip">
+          <span class="color-tip decreasing"></span>
+          <span class="legend-text">
+            Stabilized for now
+          </span>
+        </div>
+
+        <div class="legend-tip">
+          <span class="color-tip strong"></span>
+          <span class="legend-text">
+            Strong lockdown policy
+          </span>
+        </div>
+
+        <div class="legend-tip">
+          <span class="color-tip loose"></span>
+          <span class="legend-text">
+            Loose lockdown policy
+          </span>
+        </div>
+
+        <div class="legend-tip">
+          <span class="color-tip no-policy"></span>
+          <span class="legend-text">
+            No action taken yet
+          </span>
+        </div>
+
+        <div class="legend-tip">
+          <span class="color-tip no-data"></span>
+          <span class="legend-text">
+            No data available
+          </span>
+        </div>
+      </div>
     </div>
 
-    <div class="presentation">
+    <!-- <div class="presentation">
       <div class="presentation-content">
-        <div class="headline">
+        <div class="headline-left">
           <h1>
             How to understand this map
           </h1>
-          <h2>Status</h2>
-        </div>
-
-        <div class="legends">
-          <div class="legend-tip">
-            <span class="color-tip decreasing"></span>
-            <span class="legend-text">Stabilized for now</span>
-          </div>
-
-          <div class="legend-tip">
-            <span class="color-tip strong"></span>
-            <span class="legend-text">Strong lockdown policy</span>
-          </div>
-
-          <div class="legend-tip">
-            <span class="color-tip loose"></span>
-            <span class="legend-text">Loose lockdown policy</span>
-          </div>
-
-          <div class="legend-tip">
-            <span class="color-tip no-policy"></span>
-            <span class="legend-text">No action taken yet</span>
-          </div>
-
-          <div class="legend-tip">
-            <span class="color-tip no-data"></span>
-            <span class="legend-text">No data available</span>
-          </div>
-        </div>
-
-        <div class="headline m-top-32">
           <h2>Methodology</h2>
         </div>
 
@@ -73,10 +91,14 @@
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde neque atque itaque ut, sed enim tempora hic nesciunt, eligendi perferendis quas quis. Facilis totam aut saepe quo at voluptate pariatur!
           </p>
-          <!-- <a href="#" class="link-effect">Our methodology</a> -->
+          <a href="#" class="link-effect">Our methodology</a>
+        </div>
+        
+        <div class="headline-left m-top-32">
+            <h2>Methodology</h2>
         </div>
       </div>
-    </div>
+    </div> -->
 
     {%- include footer.html -%}
 

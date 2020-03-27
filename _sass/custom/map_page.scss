@@ -12,6 +12,11 @@
 }
 
 @font-face {
+  font-family: "metric-regular";
+  src: url("/assets/fonts/MetricRegular.woff");
+}
+
+@font-face {
   font-family: "metric-medium";
   src: url("/assets/fonts/MetricMedium.woff");
 }
@@ -22,6 +27,11 @@
 ///////////////////
 /* GENERAL SETUP */
 ///////////////////
+
+html {
+  min-height: 100vh;
+  position: relative;
+}
 
 body {
   background: var(--second-color);
@@ -43,6 +53,14 @@ body {
 
 .hidden-desktop, .logo-mobile {
   display: none;
+}
+
+.serif {
+  font-family: 'bodoni-book', serif !important;
+}
+
+b {
+  font-family: 'metric-regular', sans-serif;
 }
 
 
@@ -192,7 +210,7 @@ body {
 //////////////////
 
 .presentation {
-  padding: 10px 0px 80px 0px;
+  padding: 60px 0px 80px 0px;
   background: var(--second-color);
   color: var(--text-color);
   overflow: hidden;
@@ -201,7 +219,7 @@ body {
 
 /* Presentation headline */
 
-.presentation .headline {
+.headline-left {
   text-align: left !important;
   color: var(--main-color);
 }
@@ -211,18 +229,18 @@ body {
   text-align: center
 }
 
-.headline h1 {
+.headline h1, .headline-left h1 {
   font-size: 40px;
   font-family: 'bodoni-book', serif;
 }
 
-.headline h2 {
+.headline h2, .headline-left h2 {
   margin-top: 16px;
   margin-bottom: 0px;
   font-size: 26px;
 }
 
-.headline h1, .headline h2 {
+.headline h1, .headline h2, .headline-left h1, .headline-left h2 {
   text-shadow: none;
   line-height: 130%;
 }
@@ -269,6 +287,7 @@ body {
 
 .map-container {
   padding: 25px;
+  margin-bottom: 120px;
 }
 
 #map-area {
@@ -322,7 +341,7 @@ body {
 /* Legends */
 
 .legends {
-  margin-top: 16px;
+  margin-top: 8px;
   display: flex;
   flex-direction: column;
 }
@@ -341,8 +360,8 @@ body {
 
 .color-tip {
   display: block;
-  width: 60px;
-  height: auto;
+  min-width: 60px;
+  height: 27px;
   font-size: 14px;
   margin-right: 4px;
 }
@@ -408,6 +427,9 @@ body {
 ////////////
 
 footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
   padding: 15px 25px;
   display: flex;
   align-items: center;
