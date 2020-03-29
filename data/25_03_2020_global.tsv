@@ -1,19 +1,22 @@
 name	id	level
+Aruba ABW 0
 Afghanistan	AFG	1
 Albania	ALB	2
 Algeria	DZA	1
 Andorra	AND	2
 Angola	AGO	0
-Antigua and Barbuda	ATG	0
+United Arab Emirates (the)  ARE 2
+Antartica ATA 1
 Argentina	ARG	2
-Armenia	ARM	1
+Armenia	ARM	2
+Antigua and Barbuda	ATG	0
 Australia	AUS	1
-Austria	AUT	1
+Austria	AUT	2
 Azerbaijan	AZE	1
 Bahamas	BHS	1
 Bahrain	BHR	1
-Bangladesh	BGD	1
 Barbados	BRB	1
+Bangladesh	BGD	1
 Belarus	BLR	0
 Belgium	BEL	2
 Belize	BLZ	1
@@ -31,6 +34,7 @@ Cambodia	KHM	1
 Cameroon	CMR	1
 Canada	CAN	1
 Cape Verde	CPV	0
+Cayman Island	CYM	0
 Central African Republic	CAF	0
 Chad	TCD	0
 Chile	CHL	1
@@ -56,23 +60,28 @@ El Salvador	SLV	1
 Equatorial Guinea	GNQ	1
 Eritrea	ERI	0
 Estonia	EST	1
+Eswatini	SWZ	0
 Ethiopia	ETH	1
 Fiji	FJI	1
 Finland	FIN	1
 France	FRA	2
+French Guiana	GUF	2
 Gabon	GAB	2
 Gambia	GMB	1
 Georgia	GEO	1
 Germany	DEU	2
 Ghana	GHA	1
 Greece	GRC	2
+Greenland	GRL	1
 Grenada	GRD	1
 Guatemala	GTM	2
+Guernsey	GGY	0
 Guinea	GIN	0
 Guinea-Bissau	GNB	1
 Guyana	GUY	1
 Haiti	HTI	0
 Honduras	HND	2
+Hong Kong	HKG	2
 Hungary	HUN	1
 Iceland	ISL	1
 India	IND	2
@@ -190,4 +199,4 @@ Yemen	YEM	1
 Zambia	ZMB	1
 Zimbabwe	ZWE	1
 United States	USA	1
-Greenland	GRL	1
+
