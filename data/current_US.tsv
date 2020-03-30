@@ -4,8 +4,8 @@ AL	Alabama	1
 AR	Arkansas	1
 AZ	Arizona	1
 CA	California	2
-CO	Colorado	1
-CT	Connecticut	1
+CO	Colorado	2
+CT	Connecticut	2
 DC	Washington D.C.	2
 DE	Delaware	2
 FL	Florida	1
@@ -20,16 +20,16 @@ KY	Kentucky	1
 LA	Louisiana	2
 MA	Massachusetts	2
 MD	Maryland	2
-ME	Maine	1
+ME	Maine	2
 MI	Michigan	2
-MN	Minnesota	1
+MN	Minnesota	2
 MO	Missouri	1
 MS	Mississippi	1
 MT	Montana	1
 NC	North Carolina	1
 ND	North Dakota	1
 NE	Nebraska	1
-NH	New Hampshire	1
+NH	New Hampshire	2
 NJ	New Jersey	2
 NM	New Mexico	2
 NV	Nevada	1
@@ -45,7 +45,7 @@ TN	Tennessee	1
 TX	Texas	1
 UT	Utah	1
 VA	Virginia	2
-VT	Vermont	1
+VT	Vermont	2
 WA	Washington	2
 WI	Wisconsin	2
 WV	West Virginia	2
