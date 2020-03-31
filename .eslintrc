@@ -1,0 +1,61 @@
+{
+  "env": {
+    "es6": true,
+    "browser": true,
+    "jquery": true
+  },
+  "globals": {
+    "Cookies": true,
+    "Github": true,
+    "getUrlVar": true,
+    "Tabletop": true
+  },
+  "extends": "eslint:recommended",
+  "rules": {
+    "no-console": [2, {"allow": ["warn", "error", "info"]}],
+    "array-callback-return": 2,
+    "curly": 2,
+    "dot-location": [1, "property"],
+    "dot-notation": 2,
+    "eqeqeq": 2,
+    "no-empty-function": 1,
+    "no-eval": 2,
+    "no-loop-func": 2,
+    "no-param-reassign": 2,
+    "no-use-before-define": 2,
+    "array-bracket-spacing": [1, "never"],
+    "block-spacing": 1,
+    "brace-style": 1,
+    "camelcase": 1,
+    "comma-dangle": 0,
+    "eol-last": 2,
+    "indent": [1, 2, {
+      "SwitchCase": 1,
+      "MemberExpression": "off"
+    }],
+    "jsx-quotes": [1, "prefer-double"],
+    "key-spacing": [1, {
+      "beforeColon": false,
+      "afterColon": true,
+      "mode": "strict"
+    }],
+    "keyword-spacing": [1, {
+      "before": true,
+      "after": true
+    }],
+    "linebreak-style": [2, "unix"],
+    "max-nested-callbacks": [2, 6],
+    "no-trailing-spaces": 2,
+    "quotes": [1, "double", {
+      "avoidEscape": true,
+      "allowTemplateLiterals": true
+    }],
+    "operator-linebreak": [1, "after"],
+    "padded-blocks": [1, "never"],
+    "semi": [1, "always"],
+    "no-confusing-arrow": [2, {"allowParens": true}],
+    "no-var": 2,
+    "prefer-template": 0,
+    "max-len": [1, 140]
+  }
+}
