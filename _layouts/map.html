@@ -6,44 +6,68 @@
   <body>
 
     {%- include header.html -%}
+
     <div class="map-container">
       <div class="headline">
-        <h1>Roadmap to <span class="bold">C</span>ovid<span class="bold red"><b>19</b></span> Suppression</h1>
-        <h2>We are tracking government response to the Covid-19 outbreak.</h2>
+        <h1>
+          Roadmap to <span class="serif">C</span>ovid<b><span class="serif red">19</span></b> Suppression
+        </h1>
+
+        <h2>
+          We are tracking government response to the Covid<span class="red">19</span> outbreak.
+        </h2>
       </div>
 
       <div class="filters">
-        <button id="nav-world" class="active">World</button>
-        <button id="nav-us" class="active">USA</button>
+        <button id="nav-world" class="active">
+          World
+        </button>
+
+        <button id="nav-us">
+          USA
+        </button>
       </div>
 
       <div id="map-area"></div>
-
+    
       <div class="legends">
-        <span>Current Status:</span>
-        <div class="legend-tip">
-          <span class="decreasing"></span>
-          Stabilized for now
+        <div class="headline-left">
+          <h2>Status:</h2>
         </div>
 
         <div class="legend-tip">
-          <span class="strong"></span>
-          Strong lockdown policy
+          <span class="color-tip decreasing"></span>
+          <span class="legend-text">
+            Stabilized for now
+          </span>
         </div>
 
         <div class="legend-tip">
-          <span class="loose"></span>
-          Loose lockdown policy
+          <span class="color-tip strong"></span>
+          <span class="legend-text">
+            Strong lockdown policy
+          </span>
         </div>
 
         <div class="legend-tip">
-          <span class="no-policy"></span>
-          No action taken yet
+          <span class="color-tip loose"></span>
+          <span class="legend-text">
+            Loose lockdown policy
+          </span>
         </div>
 
         <div class="legend-tip">
-          <span class="no-data"></span>
-          No data available
+          <span class="color-tip no-policy"></span>
+          <span class="legend-text">
+            No action taken yet
+          </span>
+        </div>
+
+        <div class="legend-tip">
+          <span class="color-tip no-data"></span>
+          <span class="legend-text">
+            No data available
+          </span>
         </div>
       </div>
     </div>
