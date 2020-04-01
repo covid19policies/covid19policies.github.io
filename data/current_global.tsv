@@ -4,7 +4,7 @@ ALB	Albania	2
 DZA	Algeria	1
 AND	Andorra	2
 AGO	Angola	0
-ATA	Antartica	1
+ATA	Antarctica	1
 ATG	Antigua and Barbuda	0
 ARG	Argentina	2
 ARM	Armenia	2
@@ -20,7 +20,7 @@ BEL	Belgium	2
 BLZ	Belize	1
 BEN	Benin	0
 BTN	Bhutan	0
-BOL	Bolivia	1
+BOL	Bolivia	2
 BIH	Bosnia and Herzegovina	1
 BWA	Botswana	1
 BRA	Brazil	1
@@ -42,7 +42,7 @@ COM	Comoros	0
 COG	Congo	0
 COK	Cook Islands	1
 CRI	Costa Rica	1
-CIV	Cote d'Ivoire	2
+CIV	Côte d'Ivoire	2
 HRV	Croatia	1
 CUB	Cuba	1
 CYP	Cyprus	2
@@ -129,7 +129,7 @@ NZL	New Zealand	2
 NIC	Nicaragua	0
 NER	Niger	1
 NGA	Nigeria	1
-PRK	North Korea	1
+PRK	North Korea	2
 MKD	North Macedonia	2
 NOR	Norway	2
 OMN	Oman	1
@@ -166,7 +166,7 @@ LKA	Sri Lanka	2
 SDN	Sudan (former)	1
 SUR	Suriname	0
 SWZ	Swaziland	0
-SWE	Sweden	0
+SWE	Sweden	1
 CHE	Switzerland	1
 SYR	Syria	2
 TWN	Taiwan	2
@@ -191,7 +191,7 @@ VEN	Venezuela	2
 VNM	Vietnam	2
 YEM	Yemen	1
 ZMB	Zambia	1
-ZWE	Zimbabwe	1
+ZWE	Zimbabwe	2
 VNM	Vietnam	1
 YEM	Yemen	1
 ZMB	Zambia	1
