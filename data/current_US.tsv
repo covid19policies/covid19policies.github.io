@@ -1,5 +1,5 @@
 id	name	level
-AK	Alaska	1
+AK	Alaska	2
 AL	Alabama	1
 AR	Arkansas	0
 AZ	Arizona	2
@@ -8,7 +8,7 @@ CO	Colorado	2
 CT	Connecticut	2
 DC	Washington D.C.	2
 DE	Delaware	2
-FL	Florida	1
+FL	Florida	2
 GA	Georgia	1
 HI	Hawaii	2
 IA	Iowa	0
@@ -20,7 +20,7 @@ KY	Kentucky	2
 LA	Louisiana	2
 MA	Massachusetts	2
 MD	Maryland	2
-ME	Maine	1
+ME	Maine	2
 MI	Michigan	2
 MN	Minnesota	2
 MO	Missouri	1
@@ -32,7 +32,7 @@ NE	Nebraska	0
 NH	New Hampshire	2
 NJ	New Jersey	2
 NM	New Mexico	2
-NV	Nevada	0
+NV	Nevada	2
 NY	New York	2
 OH	Ohio	2
 OK	Oklahoma	1
