@@ -1,0 +1,31 @@
+---
+layout: pull-spreadsheet
+title: Update Spreadsheet
+---
+
+<h2>Spreadsheet id:</h2>
+<input type="text" class="token-input" id="spreadsheetid"></input>
+<br>
+<h2>Github token:</h2>
+<input type="text" class="token-input" id="github-token"></input>
+
+<div class="filters">
+  <button id="get-sheet" class="active">Fetch Sheet</button>
+</div>
+
+<h1>Google spreadsheets infos</h1>
+<textarea cols="10" rows="5" class="info-area" id="table_info"></textarea>
+<br>
+<h2>Global data</h2>
+<textarea cols="10" rows="5" class="info-area code" id="global_source"></textarea>
+<br>
+<h2>US data</h2>
+<textarea cols="10" rows="5" class="info-area code" id="US_source"></textarea>
+
+<div class="filters">
+  <button id="update-github" class="disable">Update Github Repo</button>
+</div>
+
+<br>
+<h2>Github infos</h2>
+<textarea cols="10" rows="5" class="info-area" id="github_info"></textarea>

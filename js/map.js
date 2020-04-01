@@ -72,13 +72,13 @@ window.initMap = function() {
   var dataSources;
   if (currentMap === "world") {
     dataSources = {
-      map: "data/world_countries.json",
-      data: "data/25_03_2020_global.tsv"
+      map: "maps/world_countries_modified.json",
+      data: "data/current_global.tsv"
     };
   } else if (currentMap === "us") {
     dataSources = {
-      map: "data/us_states.json",
-      data: "data/25_03_2020US.tsv"
+      map: "maps/us_states.json",
+      data: "data/current_US.tsv"
     };
   }
 

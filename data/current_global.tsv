@@ -1,0 +1,198 @@
+id	name	level
+AFG	Afghanistan	1
+ALB	Albania	2
+DZA	Algeria	1
+AND	Andorra	2
+AGO	Angola	0
+ATA	Antartica	1
+ATG	Antigua and Barbuda	0
+ARG	Argentina	2
+ARM	Armenia	2
+AUS	Australia	1
+AUT	Austria	2
+AZE	Azerbaijan	1
+BHS	Bahamas	1
+BHR	Bahrain	1
+BGD	Bangladesh	1
+BRB	Barbados	1
+BLR	Belarus	0
+BEL	Belgium	2
+BLZ	Belize	1
+BEN	Benin	0
+BTN	Bhutan	0
+BOL	Bolivia	1
+BIH	Bosnia and Herzegovina	1
+BWA	Botswana	1
+BRA	Brazil	1
+BRN	Brunei	1
+BGR	Bulgaria	1
+BFA	Burkina Faso	1
+BDI	Burundi	0
+KHM	Cambodia	1
+CMR	Cameroon	1
+CAN	Canada	1
+CPV	Cape Verde	0
+CYM	Cayman Island	0
+CAF	Central African Republic	0
+TCD	Chad	0
+CHL	Chile	1
+CHN	China	3
+COL	Colombia	2
+COM	Comoros	0
+COG	Congo	0
+COK	Cook Islands	1
+CRI	Costa Rica	1
+CIV	Cote d'Ivoire	2
+HRV	Croatia	1
+CUB	Cuba	1
+CYP	Cyprus	2
+CZE	Czech Republic	2
+COD	Democratic Republic of Congo	1
+DNK	Denmark	1
+DJI	Djibouti	0
+DMA	Dominica	0
+DOM	Dominican Republic	1
+ECU	Ecuador	1
+EGY	Egypt	2
+SLV	El Salvador	2
+GNQ	Equatorial Guinea	1
+ERI	Eritrea	0
+EST	Estonia	1
+ETH	Ethiopia	1
+FJI	Fiji	1
+FIN	Finland	1
+FRA	France	2
+GAB	Gabon	2
+GMB	Gambia	1
+GEO	Georgia	1
+DEU	Germany	2
+GHA	Ghana	1
+GRC	Greece	2
+GRL	Greenland	1
+GRD	Grenada	1
+GTM	Guatemala	2
+GIN	Guinea	0
+GNB	Guinea-Bissau	1
+GUY	Guyana	1
+HTI	Haiti	0
+HND	Honduras	2
+HKG	Hong Kong	2
+HUN	Hungary	1
+ISL	Iceland	1
+IND	India	2
+IDN	Indonesia	1
+IRN	Iran	1
+IRQ	Iraq	2
+IRL	Ireland	2
+ISR	Israel	2
+ITA	Italy	2
+CIV	Ivory Coast	0
+JAM	Jamaica	1
+JPN	Japan	1
+JOR	Jordan	2
+KAZ	Kazakhstan	1
+KEN	Kenya	2
+KIR	Kiribati	0
+OMA	Kosovo	2
+KWT	Kuwait	2
+KGZ	Kyrgyzstan	2
+LAO	Laos	1
+LVA	Latvia	1
+LBN	Lebanon	2
+LSO	Lesotho	1
+LBR	Liberia	1
+LBY	Libya	1
+LIE	Lichtenstein	2
+LTU	Lithuania	1
+LUX	Luxembourg	1
+MKD	Macedonia	1
+MDG	Madagascar	2
+MWI	Malawi	1
+MYS	Malaysia	2
+MDV	Maldives	1
+MLI	Mali	1
+MLT	Malta	1
+MRT	Mauritania	1
+MUS	Mauritius	2
+MEX	Mexico	2
+MDA	Moldova	2
+MCO	Monaco	2
+MNG	Mongolia	2
+MNE	Montenegro	1
+MAR	Morocco	2
+MOZ	Mozambique	1
+MMR	Myanmar	1
+NAM	Namibia	1
+NPL	Nepal	1
+NLD	Netherlands	1
+NZL	New Zealand	2
+NIC	Nicaragua	0
+NER	Niger	1
+NGA	Nigeria	1
+PRK	North Korea	1
+MKD	North Macedonia	2
+NOR	Norway	2
+OMN	Oman	1
+PAK	Pakistan	1
+PAN	Panama	2
+PNG	Papua New Guinea	1
+PRY	Paraguay	1
+PER	Peru	2
+PHL	Philippines	2
+POL	Poland	2
+PRT	Portugal	1
+QAT	Qatar	2
+ROU	Romania	2
+RUS	Russia	1
+RWA	Rwanda	2
+WSM	Samoa	0
+SMR	San Marino	2
+LCA	Santa Lucia	0
+STP	Sao Tome and Principe	1
+SAU	Saudi Arabia	2
+SEN	Senegal	2
+SRB	Serbia	1
+SYC	Seychelles	0
+SLE	Sierra Leone	1
+SGP	Singapore	2
+SVK	Slovakia	1
+SVN	Slovenia	2
+SLB	Solomon Islands	0
+SOM	Somalia	1
+ZAF	South Africa	2
+KOR	South Korea	2
+ESP	Spain	2
+LKA	Sri Lanka	2
+SDN	Sudan (former)	1
+SUR	Suriname	0
+SWZ	Swaziland	0
+SWE	Sweden	0
+CHE	Switzerland	1
+SYR	Syria	2
+TWN	Taiwan	2
+TJK	Tajikistan	0
+TZA	Tanzania	1
+THA	Thailand	1
+TLS	Timor	1
+TGO	Togo	1
+TON	Tonga	1
+TTO	Trinidad and Tobago	1
+TUN	Tunisia	2
+TUR	Turkey	1
+TKM	Turkmenistan	0
+UGA	Uganda	1
+GBR	UK	2
+UKR	Ukraine	1
+ARE	United Arab Emirates (the)	2
+USA	United States (Federal)	1
+URY	Uruguay	1
+UZB	Uzbekistan	2
+VEN	Venezuela	2
+VNM	Vietnam	2
+YEM	Yemen	1
+ZMB	Zambia	1
+ZWE	Zimbabwe	1
+VNM	Vietnam	1
+YEM	Yemen	1
+ZMB	Zambia	1
+ZWE	Zimbabwe	1

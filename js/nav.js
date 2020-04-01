@@ -38,8 +38,6 @@ usNavButton.addEventListener("click", () => {
 });
 
 // Filters nav
-
-var url = "http://127.0.0.1:4000/"
 if (window.location.href.match("#US")) {
   $("#nav-us").addClass("active");
   $("#nav-world").removeClass("active");
