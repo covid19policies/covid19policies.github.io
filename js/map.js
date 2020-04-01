@@ -44,19 +44,19 @@ window.initMap = function() {
     .html(function(d) {
       var word = wordings.find(w => w.level === d.level);
       if (currentMap === "world") {
-        return "<span class='tip-country'>Country: </span><span class='tip-details'>" +
+        return "<div class='country-tip'>" +
         d.properties.name +
-        "<br></span>" +
-        "<span class='tip-status'>" +
+        "</div>" +
+        "<div class='status-tip'>" +
         (word && word.wording) || wordings[0].wording +
         "</span>";
       } else if (currentMap === "us") {
-        return "<span class='tip-country'>State: </span><span class='tip-details'>" +
+        return "<div class='country-tip'>" +
         d.properties.name +
-        "<br></span>" +
-        "<span class='tip-status'>" +
+        "</div>" +
+        "<div class='status-tip'>" +
         (word && word.wording) || wordings[0].wording +
-        "</span>";
+        "</div>";
       }
     });
 

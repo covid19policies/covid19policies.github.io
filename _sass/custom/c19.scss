@@ -395,31 +395,34 @@ b {
 
 .d3-tip {
   transition: all 200ms ease-out;
-  background-color: var(--text-color) !important;
-  border-radius: 4px;
+  background-color: var(--second-color) !important;
+  border: 1px solid var(--text-color);
   padding: 10px;
+}
+
+.d3-tip:after {
+  color: var(--text-color) !important;
+  font-size: 12px;
+  top: -11px !important;
+}
+
+.d3-tip .country-tip {
+  color: var(--text-color);
+  position: relative;
+  font-family: 'bodoni-book', serif;
   font-size: 18px;
-   color: var(--second-color);
+  padding-bottom: 6px;
+  text-align: center;
+  border-bottom: 1px solid #FFFFFF;
 }
 
-.d3-tip:before {
-  background-color: var(--text-color) !important;
-}
-
-.d3-tip .tip-country {
+.d3-tip .status-tip {
+  color: var(--text-color);
   position: relative;
   top: 1px;
-}
-
-.d3-tip .tip-details {
-  position: relative;
-  top: 1px;
-}
-
-.d3-tip .tip-status {
-  position: relative;
-  top: 3px;
-  font-family: 'metric-medium', sans-serif;
+  font-size: 18px;
+  padding-top: 6px;
+  text-align: center
 }
 
 
