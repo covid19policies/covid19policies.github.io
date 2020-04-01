@@ -18,7 +18,7 @@ BRB	Barbados	1
 BLR	Belarus	0
 BEL	Belgium	2
 BLZ	Belize	1
-BEN	Benin	0
+BEN	Benin	1
 BTN	Bhutan	0
 BOL	Bolivia	2
 BIH	Bosnia and Herzegovina	1
@@ -33,13 +33,13 @@ CMR	Cameroon	1
 CAN	Canada	1
 CPV	Cape Verde	0
 CYM	Cayman Island	0
-CAF	Central African Republic	0
-TCD	Chad	0
+CAF	Central African Republic	1
+TCD	Chad	1
 CHL	Chile	1
 CHN	China	3
 COL	Colombia	2
 COM	Comoros	0
-COG	Congo	0
+COG	Congo	2
 COK	Cook Islands	1
 CRI	Costa Rica	1
 CIV	Côte d'Ivoire	2
@@ -49,27 +49,27 @@ CYP	Cyprus	2
 CZE	Czech Republic	2
 COD	Democratic Republic of Congo	1
 DNK	Denmark	1
-DJI	Djibouti	0
-DMA	Dominica	0
+DJI	Djibouti	1
+DMA	Dominica	1
 DOM	Dominican Republic	1
 ECU	Ecuador	1
 EGY	Egypt	2
 SLV	El Salvador	2
 GNQ	Equatorial Guinea	1
-ERI	Eritrea	0
+ERI	Eritrea	1
 EST	Estonia	1
 ETH	Ethiopia	1
 FJI	Fiji	1
-FIN	Finland	1
+FIN	Finland	2
 FRA	France	2
 GAB	Gabon	2
 GMB	Gambia	1
-GEO	Georgia	1
+GEO	Georgia	2
 DEU	Germany	2
 GHA	Ghana	1
 GRC	Greece	2
 GRL	Greenland	1
-GRD	Grenada	1
+GRD	Grenada	2
 GTM	Guatemala	2
 GIN	Guinea	0
 GNB	Guinea-Bissau	1
@@ -77,7 +77,7 @@ GUY	Guyana	1
 HTI	Haiti	0
 HND	Honduras	2
 HKG	Hong Kong	2
-HUN	Hungary	1
+HUN	Hungary	2
 ISL	Iceland	1
 IND	India	2
 IDN	Indonesia	1
@@ -92,7 +92,7 @@ JPN	Japan	1
 JOR	Jordan	2
 KAZ	Kazakhstan	1
 KEN	Kenya	2
-KIR	Kiribati	0
+KIR	Kiribati	1
 OMA	Kosovo	2
 KWT	Kuwait	2
 KGZ	Kyrgyzstan	2
@@ -104,7 +104,7 @@ LBR	Liberia	1
 LBY	Libya	1
 LIE	Lichtenstein	2
 LTU	Lithuania	1
-LUX	Luxembourg	1
+LUX	Luxembourg	2
 MKD	Macedonia	1
 MDG	Madagascar	2
 MWI	Malawi	1
@@ -123,7 +123,7 @@ MAR	Morocco	2
 MOZ	Mozambique	1
 MMR	Myanmar	1
 NAM	Namibia	1
-NPL	Nepal	1
+NPL	Nepal	2
 NLD	Netherlands	1
 NZL	New Zealand	2
 NIC	Nicaragua	0
@@ -145,9 +145,9 @@ QAT	Qatar	2
 ROU	Romania	2
 RUS	Russia	1
 RWA	Rwanda	2
-WSM	Samoa	0
+WSM	Samoa	1
 SMR	San Marino	2
-LCA	Santa Lucia	0
+LCA	Santa Lucia	1
 STP	Sao Tome and Principe	1
 SAU	Saudi Arabia	2
 SEN	Senegal	2
@@ -157,7 +157,7 @@ SLE	Sierra Leone	1
 SGP	Singapore	2
 SVK	Slovakia	1
 SVN	Slovenia	2
-SLB	Solomon Islands	0
+SLB	Solomon Islands	1
 SOM	Somalia	1
 ZAF	South Africa	2
 KOR	South Korea	2
@@ -165,7 +165,7 @@ ESP	Spain	2
 LKA	Sri Lanka	2
 SDN	Sudan (former)	1
 SUR	Suriname	0
-SWZ	Swaziland	0
+SWZ	Swaziland	1
 SWE	Sweden	1
 CHE	Switzerland	1
 SYR	Syria	2
@@ -179,8 +179,8 @@ TON	Tonga	1
 TTO	Trinidad and Tobago	1
 TUN	Tunisia	2
 TUR	Turkey	1
-TKM	Turkmenistan	0
-UGA	Uganda	1
+TKM	Turkmenistan	1
+UGA	Uganda	2
 GBR	UK	2
 UKR	Ukraine	1
 ARE	United Arab Emirates (the)	2
@@ -192,7 +192,3 @@ VNM	Vietnam	2
 YEM	Yemen	1
 ZMB	Zambia	1
 ZWE	Zimbabwe	2
-VNM	Vietnam	1
-YEM	Yemen	1
-ZMB	Zambia	1
-ZWE	Zimbabwe	1
